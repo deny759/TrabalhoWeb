@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+
+.todos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(59, 57, 57);
+    border-radius: 18px;
+}
+
+.imagem img{
+    height: 220px;
+}
+
+.nomeMarca h2{
+    color: white;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#007bff;
+    font-size: 16px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.generos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.filmes1{
+    display: flex; 
+    justify-content: space-around; 
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 50px;
+}
+
+.filmes2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.filmes3{
+    display: flex; 
+    justify-content: space-around; 
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.tamanho-Foto_filme img{
+    height: 300px;
+}
+
+.tamanho_FotoFilmeEspecificacao img{
+    height: 500px;
+}
+
+.EspecificacaoFilme{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.trailers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.rodape{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: auto;
+}
+
+.rodape-conteudo{
+    max-width: 1200px;
+    margin: 0;
+}

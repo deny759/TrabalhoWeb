@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login do sistema</title>
+
+    <style>
+        body{
+            background-color: rgb(56, 54, 54);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        .box{
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .box div{
+            margin-bottom: 20px;
+        }
+
+        button{
+            height: 30px; /* Ajustei a altura pra ficar proporcional */
+            padding: 0 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px; /* Botão arredondado */
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Efeito hover */
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espaço entre os links */
+        }
+
+        .links a{
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+        }
+
+        .links a:hover {
+            text-decoration: underline; /* Efeito hover nos links */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <div>
+                <label for="Usuario">Usuario:</label>
+                <input type="text" name="Usuario" id="Usuario">
+            </div>
+            
+            <div>
+                <label for="Senha">Senha:</label>
+                <input type="password" name="Senha" id="Senha">
+            </div>
+
+            <div>
+                <button>Entrar</button>
+            </div>
+
+            <div class="links">
+                <a href="PaginaPrincipal.html">Entrar</a> 
+                <a href="cadastro.html">Cadastro</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
